@@ -51,22 +51,23 @@ flutter run
 
 Folder Structure
 
-lib/
-│── logic/               # BLoC for state management
-│── core/
-│   ├── di/             # Dependency Injection setup (GetIt)
-│   ├── router/         # Navigation setup (Go Router)
-│   ├── constant/       # Constant Add(Color,TextStyle)
-│   ├── theme/          # For Theme Handling
-│── data/
-│   ├── models/        # Task model (Hive-based)
-│   ├── source/local/  # Local data storage using Hive
-│   ├── repository/    # For Handling Data
-│── Presentation/      
-│   ├── pages/          # UI screens
-│   ├── widget/          # Reusable UI components
-└── main.dart         # App entry point
-
+    .
+    ├── lib 
+    │   ├── logic               # BLoC for state management
+    │   ├── core/
+    │   |    ├── di/             # Dependency Injection setup (GetIt)
+    │   |    ├── router/         # Navigation setup (Go Router)
+    │   |    ├── constant/       # Constant Add(Color,TextStyle)
+    │   |    ├── theme/          # For Theme Handling
+    │   ├── data/
+    │   │   ├── models/        # Task model (Hive-based)
+    │   │   ├── source/local/  # Local data storage using Hive
+    │   │   ├── repository/    # For Handling Data
+        │── Presentation/
+    │   │   ├── pages/          # UI screens
+    │   │   ├── widget/          # Reusable UI components
+    └──
+    
 Usage
 
 Add Task: Click on the + button to add a new task.
