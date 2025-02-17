@@ -38,8 +38,7 @@ Installation
 
 Clone the Repository
 
-git clone https://github.com/yourusername/task-list.git
-cd task-list
+git clone [https://github.com/chiragar/taskbloc.git](https://github.com/chiragar/taskbloc.git)
 
 Install Dependencies
 
